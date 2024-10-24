@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import {NavbarComponent} from "@/components";
 
 export const metadata: Metadata = {
-  title: "Apresentação pessoal",
+  title: "Apresentação pessoal | Henrique Costa",
   description: "Website de apresentação pessoal do Henrique Costa",
 };
 
@@ -13,7 +14,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <body>
+      <body className="bg-black text-primary">
+        <NavbarComponent />
         {children}
       </body>
     </html>

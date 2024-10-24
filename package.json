@@ -1,6 +1,6 @@
 {
-  "name": "03_next_starter",
-  "version": "0.1.0",
+  "name": "codigo_certo_portfolio",
+  "version": "0.3.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,11 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@radix-ui/react-dialog": "^1.1.2",
     "@radix-ui/react-icons": "^1.3.0",
     "@radix-ui/react-progress": "^1.1.0",
     "@radix-ui/react-slot": "^1.1.0",
+    "03_next_starter": "file:",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+    "codigo_certo": "file:",
+    "codigo_certo_portfolio": "file:",
     "lucide-react": "^0.453.0",
     "next": "14.2.15",
     "react": "^18",
