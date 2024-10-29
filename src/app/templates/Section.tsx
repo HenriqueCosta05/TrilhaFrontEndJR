@@ -22,11 +22,12 @@ export default function Section({...props}: SectionProps) {
           <Image
             src={props.data.img.src}
             alt={props.data.img.alt}
-            className={`object-fit w-[300px] h-[300px] mx-auto ${
+            className={`object-fit w-[150px] h-[150px] mx-auto ${
               props.orientation === "right" ? "order-2" : "order-1"
-            }`}
-            width={300}
-            height={300}
+              }`}
+            sizes='150px'
+            width={0}
+            height={0}
           />
           <div
             className={`flex flex-col justify-center items-center mx-auto ${

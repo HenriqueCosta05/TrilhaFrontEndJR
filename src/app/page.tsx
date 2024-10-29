@@ -9,7 +9,7 @@ export default function Home() {
         description="Tenho 19 anos e sou um estudante de desenvolvimento de sistemas e violonista nas horas vagas. Crio projetos para a web e aplicativos mobile."
         img={{
           src: "/icon.png",
-          alt: "Hero Image"
+          alt: "Imagem de início - Henrique Costa"
         }}
       />
     </main>

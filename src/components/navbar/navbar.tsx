@@ -52,9 +52,9 @@ export default function NavbarComponent() {
       </Sheet>
       <Link href="#" className="mr-6 hidden lg:flex" prefetch={false}>
         <Terminal className="h-6 w-6" />
-        <span className="sr-only">Acme Inc</span>
+        <span className="sr-only">Henrique Costa Dev</span>
       </Link>
-      <nav className="ml-auto hidden lg:flex gap-6">
+      <nav className="ml-auto hidden lg:flex gap-6" data-test-id="desktop_navbar">
         <Link
           href="#"
           className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-black px-4 py-2 text-sm font-medium transition-colors hover:bg-[#0f0f0f] hover:text-primary focus:bg-[#0f0f0f] focus:text-primary focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-[#0f0f0f]/50 data-[state=open]:bg-[#0f0f0f]/50 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50"
