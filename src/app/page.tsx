@@ -6,7 +6,7 @@ export default function Home() {
       <HeroTemplate 
         title="Olá, meu nome é"
         highlightedText=" Henrique Costa!"
-        description="Tenho 19 anos e sou um estudante de desenvolvimento de sistemas, dono de duas gatinhas e violonista nas horas vagas. Crio projetos para a web e aplicativos mobile."
+        description="Tenho 19 anos e sou um estudante de desenvolvimento de sistemas e violonista nas horas vagas. Crio projetos para a web e aplicativos mobile."
         img={{
           src: "/icon.png",
           alt: "Hero Image"
