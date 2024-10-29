@@ -14,7 +14,7 @@ interface HeroProps {
 export default function Hero({...props}: HeroProps) {
   return (
       <WrapperComponent className='lg:flex-nowrap flex-wrap mx-auto justify-between lg:p-16 p-4 space-y-12'>
-          <Image src={props.img.src} alt={props.img.alt}  className='object-fit lg:w-[45%] h-[80%] mx-auto' width={300} height={300} />
+          <Image src={props.img.src} alt={props.img.alt}  className='object-fit lg:w-[35%] h-[70%] mx-auto' sizes="100%" width={0} height={0} />
           <div className='flex flex-col lg:ml-24 ml-8'>
           <h1 className='lg:text-7xl text-4xl font-black text-white'>
               {props.title}

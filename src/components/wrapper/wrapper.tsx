@@ -7,7 +7,7 @@ interface WrapperProps {
     
 export default function Wrapper({ children, className }: WrapperProps) {
     return (
-        <div className={`flex items-center justify-center w-full h-full ${className}`}>
+        <div className={`flex items-center justify-center w-full h-full ${className}`} data-test-id="wrapper_root">
           {children}
         </div>
   )
